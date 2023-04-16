@@ -38,7 +38,7 @@ section{
     font-family: 'outfit';
     font-size: 1rem;
 }
-@media only screen and (max-width:600px){
+/*@media only screen and (max-width:600px){
     body{
         margin: 0;
         background-color: hsl(212, 45%, 89%);
@@ -47,6 +47,6 @@ section{
     .cont{
         display: flex;
         justify-content: center;
-        background-color: hsl(212, 45%, 89%);
+        background-color: hsl(0, 0%, 100%);
     }
-}
+}*/
