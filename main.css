@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    max-width: 1440px;
+    max-width: 1220px;
+    height: 680px;
     background-color: hsl(212, 45%, 89%);
 }
 .cont{
@@ -38,13 +39,14 @@ section{
     font-family: 'outfit';
     font-size: 1rem;
 }
-@media (max-width: 480px){
-    body{
+@media screen and (max-width: 580px) {
+    body {
         max-width: 480px;
         background-color: hsl(212, 45%, 89%);
+        width: 300px;
     }
     
-    .cont{
+    .cont {
         display: flex;
         justify-content: center;
         background-color: hsl(0, 0%, 100%);
@@ -54,25 +56,25 @@ section{
         border-radius: 20px;
     }
     
-    img{
+    img {
         width: 250px;
         height: 250px;
-        margin-top: 20px;
+        margin-top: 6rem;
         border-radius: 20px;
     }
     
-    figcaption{
+    figcaption {
         font-family: 'outfit';
         font-size: 1.1rem;
         margin-top: 8px;
     }
     
-    p{
+    p {
         font-family: 'outfit';
         font-size: 1.1rem;
     }
     
-    .container{
+    .container {
         font-family: 'outfit';
         font-size: 1rem;
     }
